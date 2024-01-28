@@ -1,16 +1,12 @@
 import React from 'react'
+import foodArray from '../assets/data'
+import { CartItems } from './CartItems'
 
 function Cart() {
     return (
-        <div>
-            <div class="d-flex" style={{
-                height: '200px'
-            }}>
-                <div class="vr"></div>
-            </div >
-            Cart
-
-        </div>
+        <>
+            <CartItems foodArray={foodArray} />
+        </>
     )
 }
 

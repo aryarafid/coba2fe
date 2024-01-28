@@ -8,7 +8,7 @@ function MainPage() {
     return (
         <>
             <div className='row m-4'>
-                <div className='col-9'>
+                <div className='col-9 border-end'>
                     <div className='row m-4'>
                         <Products foodArray={foodArray} />
                     </div>
