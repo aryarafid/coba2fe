@@ -21,9 +21,9 @@ export const CartItems = ({ foodArray }) => {
                             </div>
                         </div>
                         <div className='col-md-2 m-auto'>
-                            <button type="button" class="btn btn-success">+</button>
+                            <button type="button" className="btn btn-success">+</button>
                             <p>0</p>
-                            <button type="button" class="btn btn-danger">-</button>
+                            <button type="button" className="btn btn-danger">-</button>
                         </div>
                     </div>
                 </div>

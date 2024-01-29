@@ -8,12 +8,12 @@ function MainPage() {
     return (
         <>
             <div className='row m-4'>
-                <div className='col-9 border-end'>
-                    <div className='row m-4'>
+                <div className='col-9 border-end overflow-auto'>
+                    <div className='row m-4' >
                         <Products foodArray={foodArray} />
                     </div>
                 </div>
-                <div className='col-3'>
+                <div className='col-3 overflow-scroll'>
                     <Cart />
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Products = ({ foodArray }) => {
     return (
         <>
             {foodArray.map(foodItem => (
-                <div key={foodItem.id} className="col-sm-2 d-flex align-items-stretch">
+                <div key={foodItem.id} className="col-sm-3 d-flex align-items-stretch">
                     <div className="card mb-4" style={{ minHeight: "fit-content" }} >
                         <img src={foodItem.image} className="card-img-top img-thumbnail" alt={`Image for ${foodItem.name}`}
                             style={{ width: "200px", height: "200px" }} />
